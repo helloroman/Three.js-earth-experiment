@@ -1,31 +1,10 @@
 (function() {
 
-<<<<<<< Updated upstream
-    var scene = new THREE.Scene();
-    var camera = new THREE.PerspectiveCamera(60, WIDTH / HEIGHT, 1, 10000);
-    var renderer = new THREE.WebGLRenderer({canvas: document.getElementById('myCanvas'), antialias: true, alpha: true});
-    renderer.shadowMap.enabled = true;
-    renderer.setClearColor(0x000000, 0);
-    renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.setSize(WIDTH, HEIGHT);
-=======
     "use strict";
->>>>>>> Stashed changes
 
     var HEIGHT, WIDTH;
     HEIGHT = window.innerHeight;
     WIDTH = window.innerWidth;
-<<<<<<< Updated upstream
-
-    function handleWindowResize() {
-        HEIGHT = window.innerHeight;
-        WIDTH = window.innerWidth;
-        renderer.setSize(WIDTH, HEIGHT);
-        camera.aspect = WIDTH / HEIGHT;
-        camera.updateProjectionMatrix();
-    }
-=======
->>>>>>> Stashed changes
 
     var scene = new THREE.Scene();
     var camera = new THREE.PerspectiveCamera(60, WIDTH / HEIGHT, 1, 10000);
@@ -470,13 +449,6 @@
 
     window.onload = initScene;
     window.addEventListener('resize', handleWindowResize, false);
-<<<<<<< Updated upstream
-
-    return {
-        scene: scene
-    }
-=======
->>>>>>> Stashed changes
 
 
 
