@@ -1,0 +1,19 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*canvas {*/
+    /*background: linear-gradient(#09203f 0%, #304B6F 100%);*/
+/*}*/
+
+
+canvas {
+    background: linear-gradient(#1C2E3C 0%, #485563 100%);
+}
+
+
+/*canvas {*/
+    /*background: #212127;*/
+/*}*/
